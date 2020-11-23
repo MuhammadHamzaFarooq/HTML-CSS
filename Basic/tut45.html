@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiblity Property And z-index</title>
+    <style>
+        .box {
+            width: 170px;
+            height: 170px;
+
+        }
+
+        #box-1 {
+            background-color: red;
+            position: relative;
+            top: 49px;
+            z-index: 1;
+        }
+
+        #box-2 {
+            background-color: blue;
+            /* visiblity property kisi bhi element ko to  hidden kar dy ti hay laken wo element apni jaga gher ta hay */
+            /* visibility: hidden; */
+
+            /*  display: none; property  visiblity property say alag hay ya element ko hata dy thi hay or us jagha ko free kardy thi hay  */
+            /* display: none; */
+
+            /* by default postion : har element ki static hoti hay or z-index ki property sirf jab kam krati hay jab kisi bhi 
+            element ki postion relative, absolute , fixed,sticky ho in situation may kam kary gi z-index property 
+            say hum kisi bhi element ko kisi dosray element kay upor la saktay hn */
+            position: relative;
+            top: 22px;
+            z-index: 1;
+        }
+
+        #box-3 {
+            background-color: yellow;
+        }
+
+        #box-4 {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box-1">
+
+    </div>
+    <div class="box" id="box-2"></div>
+    <div class="box" id="box-3"></div>
+    <div class="box" id="box-4"></div>
+</body>
+
+</html>

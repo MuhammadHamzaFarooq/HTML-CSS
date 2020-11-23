@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays And Objects</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Arrays And Objects</h1>
+    </div>
+
+    <script>
+        //Objects
+        let student = {
+            name: "Mhammad Hamza Farooq",
+            age: 22,
+            city: "karachi",
+            gender: "Male",
+            "Roll No": 26,
+        };
+        console.log(student);
+
+        console.log(student.age);
+
+        console.log(student["Roll No"]);
+
+
+        // Arrays
+        let arr = new Array(22, 44, "hamza", "rust");
+        console.log(arr);
+
+        // define array not initialize 
+        let arr1 = new Array(50);
+        console.log(arr1);
+        console.log(arr1.length);
+        arr1.push("C#");
+        arr1.push("ruby");
+        console.log(arr1);
+        arr1.pop();
+        console.log(arr1);
+
+
+    </script>
+</body>
+
+</html>

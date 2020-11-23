@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Selector on Selector </title>
+    <style>
+        h1 {
+            color: black;
+            background-color: chartreuse;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Direct child property */
+        /* div > p{
+            background-color: darkblue;
+            color: yellow;
+            font-weight: bold;
+        } */
+
+        /* sibling property */
+        div+p {
+            background-color: darkblue;
+            color: yellow;
+            font-weight: bold;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <h1>
+        This is more selector
+    </h1>
+
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li>
+                    <p>This is another paragraph inside li</p>
+                </li>
+                <li>This will not get effected</li>
+            </ul>
+            <p>This is a paragraph</p>
+
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outermost paragraph</p>
+</body>
+
+</html>

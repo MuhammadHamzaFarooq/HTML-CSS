@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After and Before pesudo selector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {}
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .navigation {
+            display: flex;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 34px 6px;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 2px 2px;
+        }
+
+        section {
+            margin: 2px 2px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid red;
+            height: 344px;
+            justify-content: center;
+            margin: 0px 95px;
+        }
+        p{
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        /* 
+        section::after{
+            content: "this a content";
+
+        } */
+        .navigation {
+            padding: 2px 0px;
+        }
+
+        h1 {
+            margin: 23px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item"> <a href="">Home</a></li>
+                <li class="item"> <a href="">About</a></li>
+                <li class="item"> <a href="">Services</a></li>
+                <li class="item"> <a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Welcome to Coding World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet possimus alias id veritatis! At assumenda
+                cum repellendus sequi saepe numquam, atque illo dolorem vero obcaecati tempora iusto, natus similique
+                veritatis quisquam exercitationem harum vitae.</p>
+        </section>
+    </header>
+</body>
+
+</html>

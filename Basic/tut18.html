@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Naivgation Bar</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: lightblue;
+        }
+
+        li,
+        a,
+        button {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500px;
+            font-size: 16px;
+            color: white;
+
+        }
+
+        button {
+            background-color: yellowgreen;
+            padding: 20px 20px;
+            border: 2px solid gold;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: hotpink;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10%;
+        }
+
+        .logo {
+            cursor: pointer;
+        }
+
+        .nav-links {
+            list-style: none;
+        }
+
+
+        .nav-links li {
+            display: inline;
+            padding: 0px 20px;
+
+        }
+
+
+        .nav-links li a {
+            list-style: none;
+            text-decoration: none;
+            transition: all 0.3s ease 0
+        }
+
+        .nav-links li a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ======================== Start Navigation ================================= -->
+    <header>
+        <img class="logo"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRSonmbIBune8iJHbXUwwzeeh1cuSVxqVqzEA&usqp=CAU"
+            width="100px" height="100px" alt="">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">services</a></li>
+                <li><a href="">blogs</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+
+        <a href=""><button>Join</button></a>
+    </header>
+    <!-- ======================== End Navigation ================================= -->
+</body>
+
+</html>

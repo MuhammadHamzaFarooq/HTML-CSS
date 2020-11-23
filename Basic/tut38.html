@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(4, 1fr);
+            /* grid-column-gap:3rem;
+          grid-row-gap:1rem; */
+            grid-gap: 1rem;
+
+        }
+
+        .box {
+            background-color: cyan;
+            border: 2px solid black;
+            padding: 23px;
+        }
+
+        .box:first-child{
+            /* grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3; */
+            
+            /* short hand property */
+            grid-column:  1 / span 3;
+            grid-row: 1/ span 3;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">This is Item-1</div>
+        <div class="box">This is Item-2</div>
+        <div class="box">This is Item-3</div>
+        <div class="box">This is Item-4</div>
+        <div class="box">This is Item-5</div>
+        <div class="box">This is Item-6</div>
+        <div class="box">This is Item-7</div>
+        <div class="box">This is Item-8</div>
+        <div class="box">This is Item-9</div>
+        <div class="box">This is Item-10</div>
+        <div class="box">This is Item-11</div>
+        <div class="box">This is Item-12</div>
+        
+
+    </div>
+</body>
+
+</html>

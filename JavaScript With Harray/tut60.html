@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Functions</title>
+</head>
+<body>
+    <div class="container">
+        Arrow Functions
+    </div>
+    <script>
+       greet = ()=>{
+           console.log("Good Morning");
+       }
+
+       greet();
+
+       setTimeout(()=>{
+           console.log("We are inside set time out");
+       },3000);
+
+    //    let sum = (a,b)=>{
+    //        return a+b;
+    //    }
+
+    let sum = (a,b)=>a+b;
+
+   let obj = {
+       greet: "Good Morning",
+       names: ["Hamza","Ziyad","Sufyan","Homayoun","Zain","Waqar","Rafay"],
+       speak(){
+           this.names.forEach((student)=>{
+               console.log(this.greet+" "+"Hello Hi! "+student);
+           });
+       }
+   }
+   obj.speak(); 
+    </script>
+</body>
+</html>

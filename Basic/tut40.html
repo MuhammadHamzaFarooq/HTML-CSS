@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid + Media Query</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        .container {
+
+            color: white;
+
+        }
+
+        @media only screen and (max-width: 300px) {
+            #box-1 {
+                display: block;
+                background-color: azure;
+                
+            }
+        }
+
+        @media only screen and (min-width: 300px) and (max-width: 500px) {
+            #box-2 {
+                display: block;
+                background-color: papayawhip;
+            }
+        }
+
+        @media only screen and (min-width: 500px) and (max-width: 800px) {
+            #box-3 {
+                display: block;
+                background-color: seashell;
+            }
+        }
+
+        @media only screen and (min-width: 800px) {
+            #box-4 {
+                display: block;
+                background-color: whitesmoke;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box-1">this box1</div>
+        <div class="box" id="box-2">this box2</div>
+        <div class="box" id="box-3">this box3</div>
+        <div class="box" id="box-4">this box4</div>
+    </div>
+</body>
+
+</html>

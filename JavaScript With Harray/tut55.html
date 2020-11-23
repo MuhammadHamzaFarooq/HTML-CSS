@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripts Loops</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScripts All Loops</h1>
+    </div>
+    <script>
+        let friends = ["Sufyan Khan", "Mirza Ziyad ", "Homayoun Siraj"];
+        // for(let i =0 ; i<friends.length; i++){
+        //     console.log("Hello Firends , "+friends[i]);
+        // }
+
+        // friends.forEach(function func(elements) {
+        //     console.log("Hello Firends , " + elements + " to modern javascript");
+        // })
+
+
+        // for(elements of friends){
+        //     console.log("Hello Firends , " + elements + " to modern javascript");
+
+        // }
+
+        let employee= {
+            name: "Muhammad Hamza Farooq",
+            age: 21,
+            postion:"Web and Iot Developer",
+        }
+        // use this loops iterate over objects in javascript
+        for(key in employee){
+            console.log(`The ${key} of employee is ${employee[key]}`);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-rows: 1fr 1fr 4fr;
+            grid-auto-rows: 2fr;
+            grid-template-columns: 1fr 4fr 2fr;
+            grid-gap: 1rem;
+        }
+
+        .box {
+            background-color: darkmagenta;
+            border: 2px solid black;
+            /* padding: 5px; */
+            /* margin: 3px 0px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+    <div class="box">This box-1</div>
+    <div class="box">This box-2</div>
+    <div class="box">This box-3</div>
+    <div class="box">This box-4</div>
+    <div class="box">This box-5</div>
+    <div class="box">This box-6</div>
+    <div class="box">This box-7</div>
+    <div class="box">This box-8</div>
+    <div class="box">This box-9</div>
+    <div class="box">This box-10</div>
+</body>
+
+</html>

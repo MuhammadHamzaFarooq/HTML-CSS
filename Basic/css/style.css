@@ -1,0 +1,8 @@
+.main-heading{
+    color: blue;
+    font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 2px brown;
+}

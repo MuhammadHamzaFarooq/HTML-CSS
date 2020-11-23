@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before And After pesudo Selector</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        header::before {
+            content: "";
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            position: absolute;
+            background: url("https://source.unsplash.com/collection/190727/1600x900") no-repeat center center/cover;
+            opacity: 0.8;
+            top: 0;
+            left: 0;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navigation {
+            display: flex;
+            /* background-color: rgb(228, 224, 224); */
+            margin-top: 0px;
+        }
+
+        .navigation li a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .navigation li {
+            list-style-type: none;
+            padding: 34px;
+            font-family: 'Bree Serif', serif;
+
+        }
+
+        section {
+            height: 344px;
+            display: flex;
+            flex-direction: column;
+
+            flex-direction: column;
+            margin: 14px 260px;
+
+            /*  this property work in horizontal*/
+            align-items: center;
+            /* this property work in vertically */
+            justify-content: center;
+            /* border: 2px solid red; */
+        }
+
+        section h1 {
+            font-size: 4rem;
+            font-family: 'Bree Serif', serif;
+        }
+
+        section p {
+            text-align: center;
+            font-family: 'Bree Serif', serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item"><a href="">Home</a></li>
+                <li class="item"><a href="">Services</a></li>
+                <li class="item"><a href="">About</a></li>
+                <li class="item"><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Welcome to Coding World</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis eos blanditiis soluta iusto
+            voluptatem nemo iste eaque nostrum aperiam distinctio unde temporibus excepturi vero, modi nisi
+            obcaecati cum praesentium! Quae, sint. Ex, porro iste.
+
+        </p>
+    </section>
+    <hr>
+
+</body>
+
+</html>

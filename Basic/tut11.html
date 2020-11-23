@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            /* width: 900px; */
+            border: 4px solid black;
+            margin: auto;
+
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .item {
+            border: 2px solid gray;
+            margin: 12px 4px;
+            padding: 12px 4px;
+            background-color: rgb(235, 225, 228);
+        }
+
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #staionary {
+            clear: left;
+            /* float: left; */
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis,
+                deleniti fugiat maxime vero voluptatem aliquid inventore, eveniet debitis id, facere ea illo? Non
+                veritatis, dolores velit quae nesciunt eum.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="fruitpara" class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis,
+                deleniti fugiat maxime vero voluptatem aliquid inventore, eveniet debitis id, facere ea illo? Non
+                veritatis, dolores velit quae nesciunt eum.</p>
+        </div>
+        <div id="Sationary" class="item">
+            <h3>Stationary</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis,
+                deleniti fugiat maxime vero voluptatem aliquid inventore, eveniet debitis id, facere ea illo? Non
+                veritatis, dolores velit quae nesciunt eum.</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow And Text Shaow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            padding: 6px 21px;
+            /* border: 2px solid red; */
+            margin: 17px 10px;
+            background-color: burlywood;
+            /* box-shadow syntax */
+            /* box-shadow: offset-x offset-y colour; */
+            /* box-shadow: offset-x offset-y blur-radius colour; */
+            /* box-shadow: offset-x offset-y blur-radius spread-radius colour; */
+            /* box-shadow: 10px 11px 20px 1px green; */
+
+            /* agar box shadow box kay under lagana hay to insert keyword use karayn gye */
+            box-shadow: inset 14px 10px 73px gainsboro;
+            
+            
+        }
+
+        .card h2{
+            text-shadow: 2px 2px ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>Card1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae placeat laudantium sed ullam officiis
+                voluptates recusandae illum, natus at esse, eum officia quas!'</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>Card2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit accusantium natus animi culpa,
+                voluptatum eum placeat, vero perferendis eius repudiandae libero vitae quos cumque!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea soluta, ratione voluptas modi nam asperiores
+                unde perferendis dolorem quaerat. Delectus voluptates eveniet modi.</p>
+        </div>
+    </div>
+</body>
+
+</html>

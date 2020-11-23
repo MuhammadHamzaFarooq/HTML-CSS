@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .main-menu {
+            color: black;
+            background-color: skyblue;
+            border: 2px solid black;
+            display: flex;
+            flex-grow: 1;
+            flex-wrap: wrap;
+
+
+        }
+
+        .left {
+            border: 2px solid blue;
+            background-color: cornsilk;
+            margin: 8px 2px;
+            padding: 17px 91px;
+            flex-grow: 1;
+        }
+
+        .mid {
+            border: 2px solid red;
+            background-color: gainsboro;
+            margin: 8px 2px;
+            padding: 17px 91px;
+            flex-grow: 2;
+            
+        }
+
+        .mid ul li a {
+            text-decoration: none;
+
+
+        }
+
+        .mid ul li {
+            list-style: none;
+            display: inline;
+              padding: 0px 25px;
+              text-align: center;
+              justify-content: space-around;
+              
+
+        }
+
+        .right {
+            border: 2px solid green;
+            background-color: azure;
+            margin: 8px 2px;
+            padding: 17px 91px;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-menu">
+        <div class="left">
+            Left
+        </div>
+        <div class="mid">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            Right
+        </div>
+    </div>
+</body>
+
+</html>

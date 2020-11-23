@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child pesudo selector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container {
+            display: block;
+            width: 233px;
+            margin: auto;
+        }
+
+        a[target] {
+            font-size: 32px;
+            color: purple;
+        }
+
+        a[target="_self"] {
+            font-size: 42px;
+            color:green;
+        }
+        a[type="email"] {
+            font-size: 42px;
+            color:skyblue;
+            border: 2px solid black;
+        }
+
+        input[type="text"] {
+            padding: 3px;
+            border: 2px solid red;
+        }
+
+        /* nth child property */
+        /* This will apply for third child */
+        /* li:nth-child(3){
+            color: cyan;
+        }   
+        li:nth-child(2n+0){
+            color: red;
+        }    */
+        li:nth-child(3n+3){
+            color: red;
+        }  
+        /* odd child */
+        li:nth-child(odd){
+            background-color: seagreen;
+        } 
+        /* Even child */
+        li:nth-child(even){
+            background-color: springgreen;
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><a href="https://www.google.com" target="_blank">go to google </a></h1>
+        <h1><a href="https://www.facebook.com" target="_self">go to facebook </a></h1>
+        <form action="" class="form-control">
+            <input type="text" placeholder="enter your name">
+            <input type="email" placeholder="enter your email">
+            <input type="password" placeholder="enter your password">
+            <input type="submit" placeholder="enter your submit ">
+        </form>
+        <item id="item-1">item-1</item>
+        <item id="item-2">item-2</item>
+        <item id="item-3">item-3</item>
+        <item id="item-4">item-4</item>
+        <item id="item-5">item-5</item>
+
+
+        <ul>
+            <li>List-1</li>
+            <li>List-2</li>
+            <li>List-3</li>
+            <li>List-4</li>
+            <li>List-5</li>
+            <li>List-6</li>
+            <li>List-7</li>
+            <li>List-8</li>
+            <li>List-9</li>
+            <li>List-10</li>
+        </ul>
+    </div>
+</body>
+
+</html>

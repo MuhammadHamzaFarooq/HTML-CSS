@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box practices</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main-container {
+            background-color: skyblue;
+            border: 3px solid black;
+            display: flex;
+            /* justify-content: space-between; */
+            flex-wrap: wrap;
+           padding: 69px 10px;
+          
+
+        }
+
+        #item-1 {
+            background-color: red;
+            border: 2px solid snow;
+            width: 200px;
+            height: 200px;
+            margin: 2px 2px;
+            margin: 0px 18px;
+        }
+
+        #item-2 {
+            background-color: blue;
+            border: 2px solid lawngreen;
+            width: 200px;
+            height: 200px;
+            margin: 0px 18px;
+        }
+
+        #item-3 {
+            background-color: purple;
+            border: 2px solid lightcyan;
+            width: 200px;
+            height: 200px;
+            margin: 0px 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="Item" id="item-1">one</div>
+        <div class="Item" id="item-2">two</div>
+        <div class="Item" id="item-3">three</div>
+        <div class="Item" id="item-1">one</div>
+        <div class="Item" id="item-2">two</div>
+        <div class="Item" id="item-3">three</div>
+    </div>
+</body>
+
+</html>
