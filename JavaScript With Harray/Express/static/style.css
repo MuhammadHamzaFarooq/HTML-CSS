@@ -14,7 +14,7 @@ body::before{
     /* left: 0; */
     position: absolute;
     background: url('/static/bg.jpg') no-repeat center center/cover;
-    opacity: 0.6;
+    /* opacity: 0.6; */
 
 }
 
@@ -45,6 +45,7 @@ a{
 h1{
     text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 .container{
