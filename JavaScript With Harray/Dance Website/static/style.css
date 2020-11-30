@@ -1,0 +1,53 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+#navbar{
+    background-color: black;
+    padding: 14px 4px;
+    font-family: 'Nerko One', cursive;
+}
+#navbar ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+
+}
+
+#navbar li {
+  list-style-type: none;
+}
+
+#navbar li a {
+text-decoration: none;
+padding: 7px 12px;
+color: white;
+font-size: 1.3rem;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#introsection{
+    background: url("../static/da.jpg") no-repeat center center /cover;
+    font-family: 'Lobster', cursive;
+    font-size: 35;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ height: 300px;
+ background-color: red;
+}
+
+#sponsersection{
+ height: 300px;
+ background-color: yellow;
+}
+
+#footer{
+ height: 100px;
+ background-color: black;
+}
+
