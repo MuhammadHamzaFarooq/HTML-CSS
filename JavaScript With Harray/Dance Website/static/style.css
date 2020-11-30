@@ -7,14 +7,31 @@
     
 }
 #navbar{
-    background-color: black;
+    background-color: rgb(224 23 23);
     padding: 14px 4px;
     font-family: 'Nerko One', cursive;
 }
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+
+}
+
+#logo img{
+        height: 42px;
+    filter: invert(1);
+
+}
+
 #navbar ul{
  display: flex;
  flex-direction: row;
- justify-content: center;
+ /* justify-content: center; */
+ align-items: center;
 
 }
 
@@ -26,25 +43,96 @@
 text-decoration: none;
 padding: 7px 12px;
 color: white;
-font-size: 1.3rem;
+font-size: 23px
+
+}
+#navbar li a:hover {
+color: black;
+/* font-weight: bold; */
+
 }
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 #introsection{
     background: url("../static/da.jpg") no-repeat center center /cover;
     font-family: 'Lobster', cursive;
-    font-size: 35;
+  font-size: 45px;
+
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
- height: 300px;
+ height: 420px;
  background-color: red;
+ padding-bottom: 40px;
+}
+
+#introsection div.small{
+  font-size: 42px;
+}
+
+
+#missionsection{
+ height: 326px;
+ background-color: white;
+ width: 67%;
+ margin: auto;
+}
+#missionsection h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Lobster', cursive;
+}
+.card{
+    display: inline-block;
+      margin: 23px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    height: 195px;
+    
+}
+
+.card h3{
+    text-align: center;
+    margin: 15px 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img img{
+    height: inherit;
+}
+.card-img {
+    height: 100px;
+    padding:0 1px ;
+        margin: 24px 0px;
+}
+
+.card-content{
+    padding:0px 10px ; 
+}
+.card-content p{
+  font-size: 19px;
 }
 
 #sponsersection{
  height: 300px;
- background-color: yellow;
+ background-color: rgba(255, 13, 5, 0.746);
 }
+#sponsersection h1{
+     font-size: 36px;
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Lobster', cursive;
+}
+
+
 
 #footer{
  height: 100px;
