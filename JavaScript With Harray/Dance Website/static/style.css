@@ -123,7 +123,7 @@ color: black;
 
 #sponsersection{
  height: 300px;
- background-color: rgba(255, 13, 5, 0.746);
+ background-color:rgb(255 231 230 / 75%);;
 }
 #sponsersection h1{
      font-size: 36px;
@@ -132,10 +132,29 @@ color: black;
     font-family: 'Lobster', cursive;
 }
 
+#sponsers{
+ 
+    height: 191px;
+    max-width: 1000px;
+    margin: 15px auto;
+
+}
+
+.spImg{
+ height: 80%;
+ margin: 20px;
+}
+
 
 
 #footer{
- height: 100px;
- background-color: black;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+    font-family: 'Lobster', cursive;
 }
 
