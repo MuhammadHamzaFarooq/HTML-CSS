@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("/img/bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
+   
+    
+    
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+        top: 25%;
+        left: 36%;
+        width: 25%;
+        /* border: 12px solid white; */
+   
+    }
+    
+    .container h1{
+        font-size: 40px;
+        border-bottom: 5px solid purple;
+        width: 50%;
+    color: white;
+    margin-bottom: 11px;
+    padding: 13px 0;
+    display: inline-block;
+}
+
+
+.box{
+    width: 100%;
+    /* border: 2px solid green; */
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+         font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto Mono', monospace;
+}
+input{
+    width:75%;
+    outline:none;
+    border: none;
+    color: white;
+border-radius: 7px;
+    margin:13px 0px;
+    padding: 6px 10px;
+    font-size: 20px;
+    background: none;
+}
+
+.btn{
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    border-radius: 9px;
+    margin: 12px 0px ;
+    /* width: 25%; */
+    padding: 12px 23px;
+    border: 2px solid purple;
+    font-size: 18px;
+    background: none;
+    color: white;
+         font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto Mono', monospace;
+}
+
+.btn:hover{
+    color: purple;
+    background-color: white;
+}
+
+
+.box i {
+    width: 30px;
+   
+    color: white;
+    text-align: center ;
+    
+}
