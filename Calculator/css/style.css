@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin: auto; */
+    /* text-align: center; */
+    border: 2px solid black;
+  width: 176px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.result{
+    width: 100%;
+}
+
+.clearbtn{
+    width: 100%;
+    margin-top: 2px;
+    /* background-color: gray; */
+    cursor: pointer;
+}
+
+.btn{
+    width: 40px;
+    cursor: pointer;
+}

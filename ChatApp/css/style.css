@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 955px;
+    background-color: rgb(216, 255, 209);
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.message {
+    background-color: gainsboro;
+    width: 24%;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 17px 13px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.left {
+    float: left;
+    clear: both;
+
+}
+
+#messageInp {
+
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 88%;
+    height: 62px;
+}
+
+#send-container {
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 23px;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(62, 255, 62), rgb(142, 240, 147));
+}
