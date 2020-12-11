@@ -27,7 +27,7 @@ cont.insertBefore(divElement, first);
 
 
 // Add eventlistner to eventElement
-divElement.addEventListener('click', function () {
+divElement.addEventListener('click', function() {
     let noTextArea = document.getElementsByClassName('textarea').length;
     if (noTextArea == 0) {
         let html = elem.innerHTML;
@@ -35,7 +35,8 @@ divElement.addEventListener('click', function () {
     }
     // listen for the blur event for textarea
     let textarea = document.getElementById("textarea");
-    textarea.addEventListener('blur', function () {
+    textarea.addEventListener('blur', function() {
         elem.innerHTML = textarea.value;
-    })
+        localStorage.setItem("text", textarea.value);
+    });
 })

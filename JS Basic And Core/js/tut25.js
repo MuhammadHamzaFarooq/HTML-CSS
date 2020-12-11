@@ -1,0 +1,1 @@
+console.log("Welcome to tutorial 26.js");
