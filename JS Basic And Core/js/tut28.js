@@ -8,7 +8,7 @@ let objs = {
     postion : "Web And IOT Developer",
 }
 
-console.log(objs)
+// console.log(objs)
 
 
 
@@ -16,9 +16,13 @@ function obj(givenName) {
     this.name = givenName;
 }
 
+
+
+
 obj.prototype.getName = function () {
    return this.name = givenName;
 }
+console.log(obj.prototype)
 
 obj.prototype.setName = function (newName) {
     this.name = newName
@@ -29,5 +33,5 @@ obj.prototype.setName = function (newName) {
 
 
 let obj1 = new obj('sufyan');
-console.log(obj1)
+// console.log(obj1)
 

@@ -1,42 +1,42 @@
-// let element = document.createElement('li');
+let element = document.createElement('li');
 
 
 
 // Add a Class name to li element
-// element.className= 'mylist';
-// element.id= 'myId';
-// element.setAttribute('title','mytitle');
-// element.innerText = 'hello this is created by hamza'
-// console.log(element);
-// let text = document.createTextNode(' I am a text node');
-// element.appendChild(text);
+element.className= 'mylist';
+element.id= 'myId';
+element.setAttribute('title','mytitle');
+element.innerText = 'hello this is created by hamza'
+console.log(element);
+let text = document.createTextNode(' I am a text node');
+element.appendChild(text);
 
-// let  ul = document.querySelector('ul.this');
-// ul.appendChild(element);
-// console.log(ul);
-
-
-// let elem2 = document.createElement('h1');
-// elem2.id = 'elem2';
-// elem2.className = 'elem2';
-// let tnode = document.createTextNode("This is a created node for elem2 ");
-// elem2.appendChild(tnode); 
-
-// element.replaceWith(elem2)
+let  ul = document.querySelector('ul.this');
+ul.appendChild(element);
+console.log(ul);
 
 
-// let myul = document.getElementById('myUl')
-// myul.replaceChild(element,document.getElementById('item-2'));
+let elem2 = document.createElement('h1');
+elem2.id = 'elem2';
+elem2.className = 'elem2';
+let tnode = document.createTextNode("This is a created node for elem2 ");
+elem2.appendChild(tnode); 
 
-// myul.removeChild(document.getElementById('item-4'));
+element.replaceWith(elem2)
+
+
+let myul = document.getElementById('myUl')
+myul.replaceChild(element,document.getElementById('item-2'));
+
+myul.removeChild(document.getElementById('item-4'));
 
 
 
-// let pr = elem2.getAttribute('id');
-// pr = elem2.hasAttribute('id'); //return ture and false
-// console.log(pr,elem2);
-// pr = elem2.removeAttribute('id'); //remvoe the attribute
-// console.log(pr,elem2);
+let pr = elem2.getAttribute('id');
+pr = elem2.hasAttribute('id'); //return ture and false
+console.log(pr,elem2);
+pr = elem2.removeAttribute('id'); //remvoe the attribute
+console.log(pr,elem2);
 
 
 // quick quize
