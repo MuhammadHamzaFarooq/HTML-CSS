@@ -1,7 +1,7 @@
-console.log("Learn Call Back Function");
+console.log("Learn promise Function");
 
 
-// Prentened that this is response coming from the server
+// Pretened that this is response coming from the server
 let students = [
     { name: "Muhammad Hamza Farooq", subject: "JavaScript" },
     { name: "Ziyad", subject: "Machine Learning" },
@@ -12,7 +12,7 @@ function enrollStudent(student, callback) {
         students.push(student);
         console.log("Students has been enrolled");
         callback();
-    },3000);
+    },1000);
 }
 
 function getStudents() { 
@@ -32,3 +32,7 @@ function getStudents() {
 let newStudent = {name:"Ali",subject:"Python"};
 enrollStudent(newStudent,getStudents);
 // getStudents();
+
+
+// function inside then is run as - resolve()
+// function inside catch is run as - reject()
